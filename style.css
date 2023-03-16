@@ -1,0 +1,251 @@
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+}
+
+#center {
+    width: 908px;
+    margin-left: 40px;
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.headMeeting
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#right {
+    width: 30%;
+    background-color: aqua;
+}
+
+#left {
+    width: 6%;
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-right-width: 1px;
+}
+
+#left_above {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#below {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    width: 32px;
+    margin-top: 50px;
+}
+
+#setting {
+    margin-top: 36px;
+}
+
+.timeofMeeting
+{
+    color: crimson;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 90px;
+    height: 36px;
+    left: 85%;
+    border: 1px crimson solid;
+    gap: 10px;
+    border-radius: 20px;
+}
+.bullet
+{
+    font-size: 250%;
+    /* top: -75%;
+    left: -55%; */
+    
+}
+.Int
+{
+    border: 0px;
+    background-color: crimson;
+    padding: 2px ;
+    color: aliceblue;
+    border-radius: 15px;
+    /* height: 50%; */
+    
+}
+.Internal
+{
+    width: 360px;
+    height: fit-content;    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    gap: 10px;
+}
+
+.Internal2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 15px;
+    border: 1px crimson solid;
+    background-color: crimson;
+    height: 25px;
+    width: 80px;
+}
+.meetingInfo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headMeetingTitle
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 908px;
+}
+.Benjamin
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-image: url("img_big.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 458px;
+    width: 830px;
+    border-radius: 0 0 10px 10px;
+}
+.admin
+{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px #76777a solid;
+    background-color: #76777a;
+    width: 160px;
+    height: 38px;
+    margin: 10px 0 0 20px;
+    border-radius: 5px;
+}
+.mic
+{
+    position: absolute;
+    left: 90%;
+    top: 3%;
+}
+.member
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 908px;
+    height: 208px;
+}
+.Christan_Scott
+{
+    position: absolute;
+    background-image: url("img2.png");
+    background-size: contain;
+    width: 260px;
+    height: 160px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border-radius: 10px;
+    left: 0%;
+}
+.Deborah_Chu
+{
+    position: absolute;
+    background-image: url("img1.png");
+    background-size: contain;
+    width: 260px;
+    height: 160px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border-radius: 10px;
+    left: 32%;
+}
+.Jordan_Nieves
+{
+    position: absolute;
+    background-image: url("img.png");
+    background-size: contain;
+    width: 260px;
+    height: 160px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border-radius: 10px;
+    left: 63%;
+}
+.name
+{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0px;
+    background-color: rgba(17, 20, 20, 0.5);
+    width: 107px;
+    height: 25px;
+    margin: 10px 0 0 10px;
+    border-radius: 5px;
+    font-size: 80%;
+}
+.mic2
+{
+    position: absolute;
+    left: 82%;
+    top: 5%;
+    width: 28px;
+    height: 28px;
+}
+.buttom
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.endmeetingButton
+{
+    background-color: crimson;
+    color: #ffff;
+    height: 100%;
+    width: 100px;
+    border: 0px;
+    border-radius: 5px;
+}
