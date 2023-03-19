@@ -170,13 +170,15 @@ body
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     width: 908px;
+    gap: 26px;
     height: 208px;
 }
-.Christan_Scott
+.members
 {
-    position: absolute;
+    position: relative;
+    display: flex;
+    flex-direction: row;
     background-image: url("img2.png");
     background-size: contain;
     width: 260px;
@@ -184,31 +186,6 @@ body
     background-repeat: no-repeat;
     margin-top: 20px;
     border-radius: 10px;
-    left: 0%;
-}
-.Deborah_Chu
-{
-    position: absolute;
-    background-image: url("img1.png");
-    background-size: contain;
-    width: 260px;
-    height: 160px;
-    background-repeat: no-repeat;
-    margin-top: 20px;
-    border-radius: 10px;
-    left: 32%;
-}
-.Jordan_Nieves
-{
-    position: absolute;
-    background-image: url("img.png");
-    background-size: contain;
-    width: 260px;
-    height: 160px;
-    background-repeat: no-repeat;
-    margin-top: 20px;
-    border-radius: 10px;
-    left: 63%;
 }
 .name
 {
@@ -232,6 +209,9 @@ body
     top: 5%;
     width: 28px;
     height: 28px;
+    /* border-radius: 50px;
+    background-color: #76777a; */
+    
 }
 .buttom
 {
